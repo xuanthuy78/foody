@@ -1,0 +1,53 @@
+.banner-container {
+  .banner-active {
+    position: relative;
+    background: url(../../images/bg-top.png) center center / cover;
+    height: 100vh;
+    .banner-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      h4 {
+        font-size: 36px;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        color: #e8d7d9;
+        line-height: 0.833;
+      }
+      h3 {
+        font-size: 100px;
+        font-weight: 700px;
+        color: #ffffff;
+        letter-spacing: 5px;
+      }
+      .start {
+        button {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.143;
+          color: #ffff;
+          padding: 12px 80px;
+          border: 3px solid #ffffff;
+          margin-top: 15px;
+          margin-bottom: 30px;
+        }
+      }
+      h5 {
+        font-size: 14px;
+        line-height: 2.143;
+        color: #ffffff;
+        .rewared {
+          text-decoration: underline !important;
+          color: #ffff;
+        }
+      }
+    }
+  }
+}
+
+.btn-outline-dark:focus, .btn-outline-dark.focus {
+  box-shadow: 0 0 0 0.2rem rgba(234, 236, 238, 0.5);
+}

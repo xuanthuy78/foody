@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', {
+    "title": "Fudi"
+  })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+</head>
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    <!-- @@include('../layouts/header.html') -->
+
+    @@include('../partials/banner.html')
+
+    <main class="main-container">
+          <!-- include navbar.html -->
+          @@include('../layouts/main/navbar.html')
+
+          <!-- include products.html -->
+          @@include('../layouts/main/products.html')
+    
+          <!-- include infor.html -->
+          @@include('../layouts/main/information.html')
+    
+          <!-- include slides.html -->
+          @@include('../layouts/main/slides.html')
+    
+          <!-- include category.html -->
+          @@include('../layouts/main/category.html')
+      
+    </main>
+
+    <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+</html>

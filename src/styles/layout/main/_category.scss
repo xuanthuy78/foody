@@ -1,0 +1,72 @@
+.category {
+  .category-header {
+    margin-top: 95px;
+    margin-bottom: 50px;
+    .title {
+      font-size: 18px;
+      color: #000000;
+      font-weight: 550;
+    }
+  }
+  .category-main {
+    .box{
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        text-align: center;
+        color: #fff;
+        h5 {
+          font-size: 18px;
+          font-family: "Times New Roman";
+          font-weight: 500;
+          font-style: italic;
+        }
+        h2 {
+          font-size: 34px;
+          color: rgb( 255, 255, 255 );
+          font-weight: 550;
+          letter-spacing: 2px;
+          line-height: 1.254;
+        }
+      }
+    }
+  }
+  .category-footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .evaluate-category{
+      .item {
+        h2 {
+          font-size: 34px;
+          font-weight: 500;
+          color: #000;
+        }
+        .description {
+          font-size: 16px;
+          color: #888888;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .category-main {
+    display: flex;
+    flex-grow: wrap;
+    height: 100%;
+  }
+  .evaluate-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+}

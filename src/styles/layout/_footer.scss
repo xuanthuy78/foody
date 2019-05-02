@@ -1,0 +1,17 @@
+.footer-container {
+  border-top: 1px solid #e2e2e2;
+  background: #f7f7f7;
+  padding: 35px 0 35px 0;
+  font-size: 14px;
+  letter-spacing: .8px;
+  .footer-left {
+    color: #c1c1c1;
+  }
+  .footer-right {
+    color: #8b8b8b;
+    span {
+      color: #000000;
+      font-weight: bold;
+    }
+  }
+}

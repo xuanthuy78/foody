@@ -1,0 +1,43 @@
+.information {
+  background: #dfdede;
+  .infor-left {
+    margin-top: 100px;
+    .infor-image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .infor-right {
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .infor-content {
+      .text-content {
+        font-size: 16px;
+        line-height: 1.525;
+        color: #636363;
+        margin-bottom: 40px;
+      }
+    } 
+    .infor-footer {
+      .app-icon {
+        margin-left: 6px;
+      }
+    }
+  } 
+}
+
+@media (min-width: 768px) {
+  .infor-right {
+    margin: 80px 0px 90px 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .infor-right {
+    margin: 170px 0px 0px 90px;
+  }
+}
