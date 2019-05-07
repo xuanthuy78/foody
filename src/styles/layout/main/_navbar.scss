@@ -13,6 +13,11 @@
       .navbar-nav {
         li {
           margin-left: 15px;
+          a.nav-link {
+            &:hover {
+              color: #ab4d62 !important;
+            }
+          }
         }
       }
     }

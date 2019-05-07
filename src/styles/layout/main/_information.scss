@@ -25,6 +25,9 @@
     .infor-footer {
       .app-icon {
         margin-left: 6px;
+        &:hover {
+          color: red;
+        }
       }
     }
   } 

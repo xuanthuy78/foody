@@ -18,3 +18,34 @@
   display: block;
   transform: translateY(25px);
 }
+
+.carousel-indicators--round li {
+  border-radius: 10px;
+  margin: 1px 3px;
+  height: 10px;
+  max-width: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+  max-width: 12px;
+  margin: 0 3px;
+  height: 12px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #746873;
+}
+
+.carousel-caption {
+  bottom: 14% !important;
+}
+
+.carousel-indicators  {
+  bottom: 30px;
+}
