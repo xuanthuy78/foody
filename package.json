@@ -2,8 +2,11 @@
   "name": "html-boilerplate",
   "version": "1.0.0",
   "description": "HTML Boilerplate",
+  "homepage": "https://xuanthuy78.github.io/foody/",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "gulp build",
     "dev": "gulp run:dev",
     "prod": "gulp run:prod"
