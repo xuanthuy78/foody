@@ -5,7 +5,7 @@
   "homepage": "https://xuanthuy78.github.io/foody/",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "gulp build",
     "dev": "gulp run:dev",
@@ -19,7 +19,7 @@
     "HTML Boilerplate",
     "HTML Generator"
   ],
-  "author": "Sang tx <txsang.dn@gmail.com>",
+  "author": "<phamthixuanthuy78@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",
